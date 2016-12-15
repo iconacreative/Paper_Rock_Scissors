@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  font-family: helvetica;
+  font-size: 40px;
+  text-align: center;
+  background: black;
+  color: lightblue;
+  margin: 3em; 
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 40px;
+  color: lightblue;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: helvetica;
+  font-size: 40px;
+  color:  lightblue;
+  text-align: center;
+  margin-top: 22px;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+
+.Scoreboard {
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  border: 1px solid lightblue;
+}
+
+.Scoreboard h3 {
+  font-family: helvetica;
+  font-size: 11px;
+  color: lightblue;
+  text-align: center;
+  border-bottom: 1px solid lightblue;
+  margin: 0;
+  padding: 10px;
+}
+
+.Scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Scoreboard th {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.Scoreboard td {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+
+}
+
+.button:active {
+  background: blue;
+}
+
+#rock {
+  text-decoration: none;
+  background-color: #033048;
+  color: white;
+  padding: 10px 40px;
+/*  margin: 2px 1px 2px 1px;*/
+  font-size: 20px;
+  border: none;
+}
+
+#paper {
+  text-decoration: none;
+  background-color: #033048;
+  color: white;
+  padding: 10px 40px;
+/*  margin: 2px 1px 2px 1px;*/
+  font-size: 20px;
+  border: none;
+
+}
+
+#scissors {
+  text-decoration: none;
+  background-color: #033048;
+  color: white;
+  padding: 10px 40px;
+/*  margin: 2px 1px 2px 1px;*/
+  font-size: 20px;
+  border: none;
+
+}
+
+#status {
+  margin-top: 20px;
+}
